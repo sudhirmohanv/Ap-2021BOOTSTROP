@@ -1,0 +1,6 @@
+for background opacity--
+
+bg-opacity-10
+bg-opacity-25
+bg-opacity-50
+bg-opacity-75

@@ -1,0 +1,48 @@
+<style>
+    .outer {
+        min-height: 400px;
+        width: 350px;
+        margin: 100px auto;
+        padding: 20px;
+        box-shadow: 10px 20px 20px 5px gray;
+        border-box: box-sizing;
+        background: linear-gradient(#007acc,skyblue);
+    }
+
+    .a {
+        margin-left: 10px;
+        height: 35px;
+        width: 300px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .btn {
+        height: 35px;
+        width: 70px;
+        background: green;
+        color: white;
+        outline: none;
+    }
+
+        .btn:hover {
+            transition: all ease 1s;
+            border: 2px solid green;
+            background: white;
+            color: green;
+        }
+</style>
+<div class="outer">
+    <center><h3 style="color:white">Registration</h3></center>
+    <br />
+    <form action="/home/greeting" method="post">
+        <span class="a"> First Name:</span><br /><input type="text" class="a" name="fname" placeholder="Enter your name..." /><br /><br />
+        <span class="a">Last Name</span><br /><input type="text" class="a" name="lname" placeholder="Enter your  last name..." /><br /><br />
+        <span class="a">Email</span><br /><input type="email" class="a" name="email" placeholder="Enter your email..." /><br /><br />
+        <span class="a">profile pic</span><br /><input type="file" class="a" name="pic"/>
+        <span class="a"> Date of Birth:</span><br /><input type="text" class="a" name="dob" placeholder="Enter your  Father name..." /><br /><br />
+       
+        <input type="submit" class="btn" />
+    </form>
+</div>
